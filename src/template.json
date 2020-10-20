@@ -1,0 +1,662 @@
+{
+	"definition": {
+		"tagName": "mj-global-style\"",
+		"children": [
+			{
+				"tagName": "mj-body",
+				"attributes": {
+					"background-color": "#36383e",
+					"containerWidth": 600
+				},
+				"children": [
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"locked": "true",
+							"full-width": "full-width",
+							"containerWidth": 600,
+							"padding": "9px 0px 9px 0px",
+							"background-color": "#303237"
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "66.66666666666666%",
+									"vertical-align": "middle",
+									"containerWidth": 400
+								},
+								"children": [
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"align": "left",
+											"font-size": "11px",
+											"locked": "true",
+											"editable": "true",
+											"padding-bottom": "0",
+											"padding-top": "0",
+											"containerWidth": 396,
+											"color": "#ffffff",
+											"padding": "0px 0px 0px 0px"
+										},
+										"content": "<p>Write a short summary of your e-mail, the so-called &quot;preheader&quot;</p>\n",
+										"uid": "5Jjf_iRmM-"
+									}
+								],
+								"uid": "EvMxbmHAX4"
+							},
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "33.33333333333333%",
+									"vertical-align": "middle",
+									"containerWidth": 134
+								},
+								"children": [
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"align": "right",
+											"font-size": "11px",
+											"locked": "true",
+											"editable": "false",
+											"padding-bottom": "0",
+											"padding-top": "0",
+											"containerWidth": 198,
+											"color": "#474747",
+											"padding": "0px 0px 0px 0px"
+										},
+										"content": "<p><span style=\"color: #ffffff;\"><strong><a href=\"*|WEBVERSION|*\" style=\"color: #ffffff;\">Online version of email</a></strong></span></p>\n",
+										"uid": "z_q4x12Ki5"
+									}
+								],
+								"uid": "Cl7qqVsYHT"
+							}
+						],
+						"uid": "JXqL1hvl5"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"background-color": "#36383e",
+							"containerWidth": 600,
+							"padding": "20px 0px 20px 0px",
+							"layout": "full",
+							"full-width": "full-width"
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "100%",
+									"vertical-align": "middle",
+									"containerWidth": 600
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429375.",
+											"width": "121",
+											"containerWidth": 600,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "MKWPyfzJZk"
+									},
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "10px 20px 10px 20px",
+											"color": "#ffffff",
+											"font-family": "Avenir, sans-serif",
+											"align": "center",
+											"containerWidth": 600
+										},
+										"content": "<h1>Do you like trains?</h1>\n",
+										"uid": "ie3g-Ik3e6"
+									},
+									{
+										"tagName": "mj-button",
+										"attributes": {
+											"background-color": "#ffffff",
+											"padding": "10px 20px 10px 20px",
+											"border-radius": "26px",
+											"color": "#000000",
+											"containerWidth": 600,
+											"align": "center",
+											"font-size": "13px",
+											"inner-padding": "9px 26px"
+										},
+										"content": "Let's go for a ride",
+										"uid": "KlnlUlvLGG"
+									}
+								],
+								"uid": "8wQ6ALIonC"
+							}
+						],
+						"uid": "4KJ248ZHwG"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"full-width": "full-width",
+							"padding": "0px",
+							"background-color": "#ffffff",
+							"containerWidth": 600
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "33%",
+									"containerWidth": 198,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429439.",
+											"width": "90",
+											"containerWidth": 198,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "hZdnRiDNEd"
+									}
+								],
+								"uid": "CBu43UQ75n"
+							},
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "33%",
+									"containerWidth": 66,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429436.",
+											"width": "90",
+											"containerWidth": 198,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "x-e6THu6vU"
+									}
+								],
+								"uid": "VQH28THifB"
+							},
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "33%",
+									"containerWidth": 22,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429464.",
+											"width": "90",
+											"containerWidth": 198,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "XnbkNzwZggl"
+									}
+								],
+								"uid": "5Uqw92HJne"
+							}
+						],
+						"uid": "aXogvD7kwn"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"full-width": "full-width",
+							"padding": "2px 0px 2px 0px",
+							"background-color": "#ffffff",
+							"containerWidth": 600
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "100%",
+									"containerWidth": 600,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "13px 20px 13px 20px",
+											"color": "#000",
+											"font-family": "Avenir, sans-serif",
+											"containerWidth": 600
+										},
+										"content": "<div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>\n\n<div></div>\n\n<div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Fusce suscipit libero eget elit. Nullam dapibus fermentum ipsum.</div>\n",
+										"uid": "csXXq6K6-I1"
+									},
+									{
+										"tagName": "mj-divider",
+										"attributes": {
+											"border-width": "1px",
+											"border-color": "#828282",
+											"containerWidth": 600,
+											"padding-top": "10px",
+											"padding-bottom": "10px",
+											"padding-right": "25px",
+											"padding-left": "25px"
+										},
+										"uid": "Zfn60LDw1ZX"
+									}
+								],
+								"uid": "eWZkhFxhLCh"
+							}
+						],
+						"uid": "N7E154XIisz"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"full-width": "full-width",
+							"padding": "19px 0px 19px 0px",
+							"background-color": "#ffffff",
+							"containerWidth": 600
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "50%",
+									"containerWidth": 300,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429550.",
+											"width": "115",
+											"containerWidth": 300,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "0t_C1YfsUod"
+									}
+								],
+								"uid": "KqmkdJogA9k"
+							},
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "50%",
+									"containerWidth": 150,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "10px 20px 10px 20px",
+											"color": "#000",
+											"font-family": "Avenir, sans-serif",
+											"containerWidth": 300
+										},
+										"content": "<h3>Lorem ipsum dolor sit amet</h3>\n\n<div>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</div>\n",
+										"uid": "r15wBXifsyq"
+									}
+								],
+								"uid": "26CsoWImP2T"
+							}
+						],
+						"uid": "TAmf5xDJKJP"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"full-width": "full-width",
+							"padding": "19px 0px 19px 0px",
+							"background-color": "#ffffff",
+							"containerWidth": 600
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "50%",
+									"containerWidth": 300,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "10px 20px 10px 20px",
+											"color": "#000",
+											"font-family": "Avenir, sans-serif",
+											"containerWidth": 300
+										},
+										"content": "<h3>Lorem ipsum dolor sit amet</h3>\n\n<div>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</div>\n",
+										"uid": "ctdMDLhrXU3"
+									}
+								],
+								"uid": "vt0VrmvIg3r"
+							},
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "50%",
+									"containerWidth": 150,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429606.",
+											"width": "115",
+											"containerWidth": 300,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "pDISvOCNOpj"
+									}
+								],
+								"uid": "aIprH6YD5Qs"
+							}
+						],
+						"uid": "teDDEFO4HD8"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"full-width": "full-width",
+							"padding": "19px 0px 19px 0px",
+							"background-color": "#36383e",
+							"containerWidth": 600
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "33%",
+									"containerWidth": 198,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429892.",
+											"width": "60",
+											"containerWidth": 198,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "P4TYX_ebh2o"
+									},
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "10px 20px 10px 20px",
+											"color": "#ffffff",
+											"font-family": "Avenir, sans-serif",
+											"align": "center",
+											"containerWidth": 198
+										},
+										"content": "<p><strong>SEARCH</strong></p>\n",
+										"uid": "5FJm8Cxsh8J"
+									}
+								],
+								"uid": "g-OkNyZ-oW3"
+							},
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "33%",
+									"containerWidth": 66,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429907.",
+											"width": 61,
+											"containerWidth": 198,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "2NiZkpBWmv7"
+									},
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "10px 20px 10px 20px",
+											"color": "#ffffff",
+											"font-family": "Avenir, sans-serif",
+											"align": "center",
+											"containerWidth": 198
+										},
+										"content": "<p><strong>BUY</strong></p>\n",
+										"uid": "xrjpqNXm8mn"
+									}
+								],
+								"uid": "Zi9pWmNsdmp"
+							},
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "33%",
+									"containerWidth": 22,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466429917.",
+											"width": "60",
+											"containerWidth": 198,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "T8jt2GbRjoh"
+									},
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "10px 20px 10px 20px",
+											"color": "#ffffff",
+											"font-family": "Avenir, sans-serif",
+											"align": "center",
+											"containerWidth": 198
+										},
+										"content": "<p><strong>HELP</strong></p>\n",
+										"uid": "MxKHwKnbcyp"
+									}
+								],
+								"uid": "12pO8hQ0gId"
+							}
+						],
+						"uid": "nrL-ie1lDh6"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"full-width": "full-width",
+							"padding": "11px 0px 11px 0px",
+							"containerWidth": 600
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "100%",
+									"containerWidth": 600,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-button",
+										"attributes": {
+											"background-color": "#e85034",
+											"padding": "10px 20px 10px 20px",
+											"border-radius": "none",
+											"containerWidth": 600,
+											"align": "center",
+											"color": "#ffffff",
+											"font-size": "13px",
+											"inner-padding": "9px 26px"
+										},
+										"content": "GO SHOPPING",
+										"uid": "fS6Q29j3vRm"
+									}
+								],
+								"uid": "LxEqwAPuge5"
+							}
+						],
+						"uid": "9JRewxZ8JHY"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"full-width": "full-width",
+							"padding": "37px 0px 37px 0px",
+							"background-color": "#ffffff",
+							"containerWidth": 600
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "100%",
+									"containerWidth": 600,
+									"vertical-align": "top"
+								},
+								"children": [
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "10px 20px 10px 20px",
+											"color": "#000",
+											"font-family": "Avenir, sans-serif",
+											"align": "center",
+											"containerWidth": 600
+										},
+										"content": "<h2>CALL US</h2>\n",
+										"uid": "_8jyXVty6ml"
+									},
+									{
+										"tagName": "mj-image",
+										"attributes": {
+											"src": "https://ecomail-accounts.s3-eu-west-1.amazonaws.com/jan/2016/Jun/Mon/1466430064.",
+											"width": 49,
+											"containerWidth": 600,
+											"padding": "25px 25px 25px 25px",
+											"widthPercent": 17
+										},
+										"uid": "lwWmWByOQQF"
+									},
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"padding": "10px 20px 10px 20px",
+											"color": "#000",
+											"font-family": "Avenir, sans-serif",
+											"align": "center",
+											"containerWidth": 600
+										},
+										"content": "<p>123 123 123</p>\n",
+										"uid": "T51-sUO97kS"
+									}
+								],
+								"uid": "4B7Xlu7u_OX"
+							}
+						],
+						"uid": "MJ0hJb1G4jj"
+					},
+					{
+						"tagName": "mj-section",
+						"attributes": {
+							"locked": "true",
+							"full-width": "full-width",
+							"containerWidth": 600,
+							"background-color": "#2f2e2e",
+							"padding": "0px 0px 0px 0px"
+						},
+						"children": [
+							{
+								"tagName": "mj-column",
+								"attributes": {
+									"width": "100%",
+									"vertical-align": "middle",
+									"containerWidth": 600
+								},
+								"children": [
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"align": "center",
+											"font-size": "11px",
+											"locked": "true",
+											"editable": "false",
+											"padding-bottom": "0",
+											"padding-top": "0",
+											"containerWidth": 600,
+											"color": "#ffffff",
+											"padding": "0px 0px 0px 0px"
+										},
+										"content": "<p style=\"font-size: 11px;\">Please enter your address and contact here</p>\n\n<p style=\"font-size: 11px;\">Informujte adres&aacute;ta o tom, proč e-mail dostal a jak se ocitl ve va&scaron;em mailing listu</p>\n",
+										"uid": "Eng16m8N2jd"
+									},
+									{
+										"tagName": "mj-text",
+										"attributes": {
+											"align": "center",
+											"font-size": "11px",
+											"locked": "true",
+											"editable": "true",
+											"padding-bottom": "0",
+											"padding-top": "0",
+											"containerWidth": 600,
+											"color": "#ffffff",
+											"padding": "0px 0px 0px 0px"
+										},
+										"content": "<p style=\"font-size: 11px;\">If you no longer want to receive emails from us,&nbsp;&nbsp;<span style=\"color: #ffffff;\"><strong><a href=\"*|UNSUB|*\" style=\"color: #ffffff;\">please unsubscribe here.</a></strong></span></p>\n",
+										"uid": "WgrXeDfKjS4"
+									}
+								],
+								"uid": "3_PLgkCJ27s"
+							}
+						],
+						"uid": "syN0PS4xq7n"
+					}
+				]
+			}
+		],
+		"style": [],
+		"attributes": {
+			"mj-text": {
+				"line-height": 1.5
+			},
+			"mj-button": [],
+			"containerWidth": 600
+		},
+		"fonts": [
+			"Avenir, sans-serif"
+		]
+	},
+	"key": "8upKwfHJiD8K7eFbx8EzIOYu0McWn5JDr4vjrz5HoCTa15tPeZR4YWmm6lei",
+	"templateId": null,
+	"hostname": "app.topol.io",
+	"uuid": "20158"
+}
