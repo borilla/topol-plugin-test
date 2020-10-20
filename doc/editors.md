@@ -27,6 +27,10 @@ Mailjet
 - Clunky interface
 - Nope
 
-BeeFree
+[BeeFree]()
 
--
+- USD120 or USD600 per month for licence
+- Themeable editor (for $600+ tiers)
+- Custom file-picker only with $1800 tier
+- Non MJML JSON format
+- Can edit images within the tool

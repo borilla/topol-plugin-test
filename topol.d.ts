@@ -1,13 +1,13 @@
 
 declare namespace Topol {
-	type Html = string;
-	type Json = string;
+	type HTML = string;
+	type JSON = string;
 	type ImageUrl = string;
 
-	interface Mjml {
+	interface MJML {
 		tagName: string;
 		attributes: object;
-		children?: Mjml[];
+		children?: MJML[];
 		content?: string;
 	}
 
@@ -34,15 +34,15 @@ declare namespace Topol {
 			/**
 			 * Called when "Save & Close" button is clicked
 			 */
-			onSaveAndClose?(mjml: Mjml, html: Html): void;
+			onSaveAndClose?(mjml: MJML, html: HTML): void;
 			/**
 			 * Called when "Save" button is clicked
 			 */
-			onSave?(mjml: Mjml, html: Html): void;
+			onSave?(mjml: MJML, html: HTML): void;
 			/**
 			 * Called when send test email button is clicked
 			 */
-			onTestSend?(email: string, mjml: Mjml, html: Html): void;
+			onTestSend?(email: string, mjml: MJML, html: HTML): void;
 			/**
 			 * Override to implement your own file manager
 			 */
@@ -51,12 +51,12 @@ declare namespace Topol {
 			 * Called when the editor decides that it needs an autosave. Mostly when the user makes a change and does not save it immediately
 			 * @param json
 			 */
-			onAutoSave?(mjml: Mjml): void;
+			onAutoSave?(mjml: MJML): void;
 			/**
 			 * Called when user saves a block
 			 * @param json
 			 */
-			onBlockSave?(mjml: Mjml): void;
+			onBlockSave?(mjml: MJML): void;
 			/**
 			 * Called when user removes a block
 			 * @param id Id of block to remove
@@ -76,13 +76,23 @@ declare namespace Topol {
 		 * Unique ID of template of template to edit
 		 */
 		templateId?: number;
+		/**
+		 * Premade blocks to use as part of email
+		 *
+		 * To hide this option, set to `false`
+		 */
+		premadeBlocks?: false | PremadeBlocks;
+		/**
+		 * Blocks that have been saved by the user
+		 *
+		 * To enable, set to `[]`
+		 * To disable, set to `null` or leave undefined
+		 * To hide the option, set to `false`
+		 */
+		savedBlocks?: [] | null | false;
 	}
 
 	type Block = {
-		/**
-		 * Unique ID for block
-		 */
-		id: number;
 		/**
 		 * Name to display for block
 		 */
@@ -90,20 +100,34 @@ declare namespace Topol {
 		/**
 		 * MJML object(s) for block
 		 */
-		definition: Mjml[];
+		definition: MJML[];
 	} | {
-		/**
-		 * Unique ID for block
-		 */
-		id: number;
 		/**
 		 * URL of image to display for block
 		 */
 		img: ImageUrl;
 		/**
-		 * MJML object(s) for block
+		 * Name to for block (won't be shown if image is set)
 		 */
-		definition: Mjml[];
+		name?: string;
+		/**
+		 * MJML for block
+		 */
+		definition: MJML[];
+	};
+
+	type PremadeBlocks = {
+		headers?: Block[];
+		content?: Block[];
+		ecomm?: Block[];
+		footers?: Block[];
+	};
+
+	type SavedBlock = Block & {
+		/**
+		 * Unique ID for saved block
+		 */
+		id: number;
 	};
 
 	interface Plugin {
@@ -114,7 +138,7 @@ declare namespace Topol {
 		/**
 		 * Load MJML JSON template into editor
 		 */
-		load(json: Json): void;
+		load(json: JSON): void;
 		/**
 		 * Force template to save. The onSave callback will be called with the JSON and HTML of the template
 		 */
@@ -128,9 +152,16 @@ declare namespace Topol {
 		 */
 		chooseFile(imageUrl: ImageUrl): void;
 		/**
+		 * Sets the premade blocks
+		 *
+		 * Set to `false` to hide this option
+		 * @param blocks
+		 */
+		setPremadeBlocks(blocks: PremadeBlocks | false);
+		/**
 		 * Sets the saved blocks - this should be called with updated list of saved blocks after all actions: onBlockSave, onBlockRemove, onBlockEdit to update the editor with the updated information
 		 */
-		setSavedBlocks(blocks: Block[]): void;
+		setSavedBlocks(blocks: SavedBlock[]): void;
 	}
 }
 
