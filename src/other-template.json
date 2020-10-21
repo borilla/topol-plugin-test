@@ -1,0 +1,488 @@
+{
+	"tagName": "mj-global-style\"",
+	"children": [
+		{
+			"tagName": "mj-container",
+			"attributes": {
+				"background-color": "#f0f0f0",
+				"containerWidth": 600
+			},
+			"children": [
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"locked": "true",
+						"full-width": "full-width",
+						"containerWidth": 600,
+						"background-color": "#f0f0f0",
+						"padding": "5px 0px 5px 0px"
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "66.66666666666666%",
+								"vertical-align": "middle",
+								"containerWidth": 400
+							},
+							"children": [
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"align": "left",
+										"font-size": "11",
+										"locked": "true",
+										"editable": "true",
+										"padding-bottom": "0",
+										"padding-top": "0",
+										"containerWidth": 600,
+										"color": "#7a7a7a",
+										"padding": "0px 0px 0px 0px"
+									},
+									"content": "<p>Write a short summary of your e-mail, the so-called &quot;preheader&quot;<\/p>\n",
+									"uid": "9ngc-m_WjM"
+								}
+							],
+							"uid": "xX4eQQuKVE"
+						},
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "33.33333333333333%",
+								"vertical-align": "middle",
+								"containerWidth": 134
+							},
+							"children": [
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"align": "right",
+										"font-size": "11",
+										"locked": "true",
+										"editable": "false",
+										"padding-bottom": "0",
+										"padding-top": "0",
+										"containerWidth": 600
+									},
+									"content": "<p><span style=\"color: #808080;\"><a href=\"*|WEBVERSION|*\" style=\"color: #808080;\">Online version of email<\/a><\/span><\/p>\n",
+									"uid": "kKIsNxHMQv"
+								}
+							],
+							"uid": "SucZLzmHYZ"
+						}
+					],
+					"uid": "J2etvWotp"
+				},
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"background-color": "#ffffff",
+						"containerWidth": 600,
+						"layout": "normal",
+						"padding": "0px 0px 0px 0px"
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "100%",
+								"vertical-align": "middle",
+								"containerWidth": 600
+							},
+							"children": [
+								{
+									"tagName": "mj-image",
+									"attributes": {
+										"src": "https:\/\/ecomail-accounts.s3-eu-west-1.amazonaws.com\/jan\/2016\/Jun\/Wed\/1465989252.",
+										"alt": "OnePage",
+										"containerWidth": 630,
+										"width": "105",
+										"padding": "25px 25px 25px 25px",
+										"widthPercent": 17
+									},
+									"uid": "hwBLqw-LDs"
+								}
+							],
+							"uid": "q_bcbMn69b"
+						}
+					],
+					"uid": "BafQ6PopO7"
+				},
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"background-url": "https:\/\/ecomail-accounts.s3-eu-west-1.amazonaws.com\/jan\/2016\/Jun\/Wed\/1466010921.",
+						"vertical-align": "middle",
+						"background-size": "cover",
+						"background-repeat": "no-repeat",
+						"containerWidth": 600,
+						"layout": "normal"
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "100%",
+								"vertical-align": "middle",
+								"containerWidth": 600
+							},
+							"children": [
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"align": "center",
+										"font-size": "14",
+										"color": "#ffffff",
+										"padding-bottom": "10",
+										"padding-top": "45",
+										"containerWidth": 600,
+										"font-family": "Open Sans"
+									},
+									"content": "<h1>Fly with us to tropical destination<\/h1>\n\n<p>See all our offers<\/p>\n",
+									"uid": "nPdxnHK0PU"
+								},
+								{
+									"tagName": "mj-button",
+									"attributes": {
+										"align": "center",
+										"background-color": "#ffffff",
+										"color": "#2fb2f7",
+										"border-radius": "24px",
+										"href": "https:\/\/ecomail.cz",
+										"font-family": "Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif",
+										"padding-bottom": "45",
+										"padding-top": "10",
+										"containerWidth": 600,
+										"font-size": 13,
+										"inner-padding": "9px 26px",
+										"padding": "0px 0px 0px 0px"
+									},
+									"content": "Booking",
+									"uid": "CFBhlOlKkF"
+								}
+							],
+							"uid": "CN2kijrerJ"
+						}
+					],
+					"uid": "klLoR5tz77"
+				},
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"background-color": "#ffffff",
+						"vertical-align": "middle",
+						"containerWidth": 600,
+						"layout": "normal",
+						"padding": "0px 0px 0px 0px"
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "100%",
+								"vertical-align": "middle",
+								"containerWidth": 600
+							},
+							"children": [
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"align": "center",
+										"color": "#24819e",
+										"font-size": "18",
+										"containerWidth": 600,
+										"font-family": "Open Sans",
+										"padding": "15px 25px 0px 25px"
+									},
+									"content": "<h2>Best Resorts<\/h2>\n",
+									"uid": "gwPqrnlw4N"
+								},
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"align": "center",
+										"color": "#696969",
+										"font-size": "13",
+										"padding-bottom": "25",
+										"padding-top": "20",
+										"containerWidth": 600,
+										"line-height": "23px"
+									},
+									"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+									"uid": "Zvm51Hae-E"
+								}
+							],
+							"uid": "v8CL_QW387"
+						}
+					],
+					"uid": "qlUNyB8bxw"
+				},
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"padding": "0px",
+						"layout": "normal",
+						"background-color": "#ffffff",
+						"containerWidth": 600
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "50%",
+								"containerWidth": 300,
+								"vertical-align": "top"
+							},
+							"children": [
+								{
+									"tagName": "mj-image",
+									"attributes": {
+										"src": "https:\/\/ecomail-accounts.s3-eu-west-1.amazonaws.com\/jan\/2016\/Jun\/Wed\/1466012577.",
+										"containerWidth": 600,
+										"padding": "25px 25px 25px 25px"
+									},
+									"uid": "mDHSiNrEpI4"
+								}
+							],
+							"uid": "HoShl4zBMHv"
+						},
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "50%",
+								"containerWidth": 150,
+								"vertical-align": "top"
+							},
+							"children": [
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"padding": "10px 20px 10px 20px",
+										"color": "#000",
+										"font-family": "Ubuntu, Helvetica, Arial, sans-serif",
+										"containerWidth": 600
+									},
+									"content": "<h2><span style=\"color: #386fa6;\">Vestibulum libero<\/span><\/h2>\n<p>Nulla vulputate velit vel lacus bibendum, vitae blandit mauris ullamcorper. Nunc aliquet convallis mi, in elementum leo pharetra at.<\/p>",
+									"uid": "tNRZXW5V1fb"
+								}
+							],
+							"uid": "AZMdU3Bln-c"
+						}
+					],
+					"uid": "c5qq090TY1v"
+				},
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"padding": "0px",
+						"layout": "normal",
+						"background-color": "#ffffff",
+						"containerWidth": 600
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "50%",
+								"containerWidth": 300,
+								"vertical-align": "top"
+							},
+							"children": [
+								{
+									"tagName": "mj-image",
+									"attributes": {
+										"src": "https:\/\/ecomail-accounts.s3-eu-west-1.amazonaws.com\/jan\/2016\/Jun\/Wed\/1466015449.",
+										"containerWidth": 600,
+										"padding": "25px 25px 25px 25px"
+									},
+									"uid": "-PBVN1JyC27"
+								}
+							],
+							"uid": "-ZZQ58voYqK"
+						},
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "50%",
+								"containerWidth": 150,
+								"vertical-align": "top"
+							},
+							"children": [
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"padding": "10px 20px 10px 20px",
+										"color": "#000",
+										"font-family": "Ubuntu, Helvetica, Arial, sans-serif",
+										"containerWidth": 600
+									},
+									"content": "<h2><span style=\"color: #386fa6;\">Vestibulum libero<\/span><\/h2>\n<p>Nulla vulputate velit vel lacus bibendum, vitae blandit mauris ullamcorper. Nunc aliquet convallis mi, in elementum leo pharetra at.<\/p>",
+									"uid": "N9Ww52ItkEv"
+								}
+							],
+							"uid": "MRmcmBngmGs"
+						}
+					],
+					"uid": "MS_DKF1CQOd"
+				},
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"padding": "0px 0px 0px 0px",
+						"layout": "normal",
+						"background-color": "#ffffff",
+						"containerWidth": 600
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "50%",
+								"containerWidth": 300,
+								"vertical-align": "top"
+							},
+							"children": [
+								{
+									"tagName": "mj-image",
+									"attributes": {
+										"src": "https:\/\/ecomail-accounts.s3-eu-west-1.amazonaws.com\/jan\/2016\/Jun\/Wed\/1466015465.",
+										"containerWidth": 600,
+										"padding": "25px 25px 25px 25px"
+									},
+									"uid": "W-xJs1xmNKx"
+								}
+							],
+							"uid": "VLrZryibQPo"
+						},
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "50%",
+								"containerWidth": 150,
+								"vertical-align": "top"
+							},
+							"children": [
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"padding": "10px 20px 10px 20px",
+										"color": "#000",
+										"font-family": "Ubuntu, Helvetica, Arial, sans-serif",
+										"containerWidth": 600
+									},
+									"content": "<h2><span style=\"color: #386fa6;\">Vestibulum libero<\/span><\/h2>\n<p>Nulla vulputate velit vel lacus bibendum, vitae blandit mauris ullamcorper. Nunc aliquet convallis mi, in elementum leo pharetra at.<\/p>",
+									"uid": "d1So96MOUm1"
+								}
+							],
+							"uid": "Cv27uQtElZA"
+						}
+					],
+					"uid": "tfW_pVE_9Z7"
+				},
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"padding": "31px 0px 31px 0px",
+						"layout": "normal",
+						"background-color": "#ffffff",
+						"containerWidth": 600
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "100%",
+								"containerWidth": 600,
+								"vertical-align": "top"
+							},
+							"children": [
+								{
+									"tagName": "mj-button",
+									"attributes": {
+										"background-color": "#3388bd",
+										"padding": "10px 20px 10px 20px",
+										"border-radius": "26px",
+										"font-size": 14,
+										"line-height": "24px",
+										"containerWidth": 600,
+										"align": "center",
+										"color": "#ffffff",
+										"inner-padding": "10px 28px"
+									},
+									"content": "BOOK IT NOW!",
+									"uid": "ULrrx8Deeby"
+								}
+							],
+							"uid": "pVSK-9k3i3F"
+						}
+					],
+					"uid": "IQsTIBOtawJ"
+				},
+				{
+					"tagName": "mj-section",
+					"attributes": {
+						"locked": "true",
+						"full-width": "full-width",
+						"containerWidth": 600,
+						"padding": "0px 0px 0px 0px"
+					},
+					"children": [
+						{
+							"tagName": "mj-column",
+							"attributes": {
+								"width": "100%",
+								"vertical-align": "middle",
+								"containerWidth": 600
+							},
+							"children": [
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"align": "center",
+										"font-size": "11",
+										"locked": "true",
+										"editable": "false",
+										"padding-bottom": "0",
+										"padding-top": "0",
+										"containerWidth": 600,
+										"padding": "0px 0px 0px 0px"
+									},
+									"content": "<p style=\"font-size: 11px;\">Please enter your address and contact here<\/p>\n\n<p style=\"font-size: 11px;\">Informujte adres&aacute;ta o tom, pro\u010d e-mail dostal a jak se ocitl ve va&scaron;em mailing listu<\/p>\n",
+									"uid": "4-RP6GGE3Gv"
+								},
+								{
+									"tagName": "mj-text",
+									"attributes": {
+										"align": "center",
+										"font-size": "11",
+										"locked": "true",
+										"editable": "true",
+										"padding-bottom": "0",
+										"padding-top": "0",
+										"containerWidth": 600,
+										"padding": "0px 0px 0px 0px"
+									},
+									"content": "<p style=\"font-size: 11px;\">If you no longer want to receive emails from us,&nbsp;<span style=\"color: #000000;\"><strong><a href=\"*|UNSUB|*\" style=\"color: #000000;\">please unsubscribe here.<\/a><\/strong><\/span><\/p>\n",
+									"uid": "I0evadcMAAt"
+								}
+							],
+							"uid": "cGuEGG9qG2K"
+						}
+					],
+					"uid": "qnWhdUzD4HJ"
+				}
+			]
+		}
+	],
+	"style": [],
+	"attributes": {
+		"mj-text": {
+			"line-height": 1.5
+		},
+		"mj-button": []
+	},
+	"fonts": [
+		"Open Sans",
+		"Ubuntu, Helvetica, Arial, sans-serif"
+	]
+}

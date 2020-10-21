@@ -11,6 +11,44 @@ declare namespace Topol {
 		content?: string;
 	}
 
+	type Block = {
+		/**
+		 * Name to display for block
+		 */
+		name: string;
+		/**
+		 * MJML for block
+		 */
+		definition: MJML[];
+	} | {
+		/**
+		 * URL of image to display for block. For best experience use width > 330px
+		 */
+		img: ImageUrl;
+		/**
+		 * Name for block (won't be shown if image is set)
+		 */
+		name?: string;
+		/**
+		 * MJML for block
+		 */
+		definition: MJML[];
+	};
+
+	type PremadeBlocks = {
+		headers?: Block[];
+		content?: Block[];
+		ecomm?: Block[];
+		footers?: Block[];
+	};
+
+	type SavedBlocks = (Block & {
+		/**
+		 * Unique ID for saved block. If not set then it will use its array index
+		 */
+		id?: number;
+	})[];
+
 	interface Options {
 		/**
 		 * ID of DOM element in which to show editor
@@ -30,6 +68,27 @@ declare namespace Topol {
 			userId: string;
 		};
 		language: "en";
+		/**
+		 * List of google fonts to load, eg	`['Roboto', 'K2D', 'Mali']`
+		 */
+		googleFonts: string[];
+		/**
+		 * List of fonts shown in select box
+		 */
+		fonts: {
+			/**
+			 * Label shown to user
+			 */
+			label: string;
+			/**
+			 * CSS style applied with font selected, eg `'Roboto, Tahoma, sans-serif'`
+			 */
+			style: string;
+		}[];
+		/**
+		 * Disable built-in file manager in order to use your own
+		 */
+		customFileManager?: boolean;
 		callbacks: {
 			/**
 			 * Called when "Save & Close" button is clicked
@@ -44,7 +103,7 @@ declare namespace Topol {
 			 */
 			onTestSend?(email: string, mjml: MJML, html: HTML): void;
 			/**
-			 * Override to implement your own file manager
+			 * Called when user clicks "Choose a file". Override if implementing your own file manager
 			 */
 			onOpenFileManager?(): void;
 			/**
@@ -67,6 +126,14 @@ declare namespace Topol {
 			 * @param id Id of block to edit
 			 */
 			onBlockEdit?(id: number): void;
+			/**
+			 * Called when Editor is loaded. Can be useful for implementing custom loading before Editor is loaded
+			 */
+			onInit?(): void;
+			/**
+			 * Called when the user clicks "Send Test"
+			 */
+			onTestSend?(emailAddress: string, json: JSON, html: HTML): void;
 		};
 		/**
 		 * Use light theme for editor [default is dark]
@@ -74,6 +141,8 @@ declare namespace Topol {
 		light?: boolean;
 		/**
 		 * Unique ID of template of template to edit
+		 *
+		 * If used then template will be stored on TOPOL.io's servers
 		 */
 		templateId?: number;
 		/**
@@ -89,46 +158,20 @@ declare namespace Topol {
 		 * To disable, set to `null` or leave undefined
 		 * To hide the option, set to `false`
 		 */
-		savedBlocks?: [] | null | false;
+		savedBlocks?: SavedBlocks | null | false;
+		/**
+		 * Alignment for menu within the editor [default is "left"]
+		 */
+		mainMenuAlign?: "left" | "right";
+		/**
+		 * Selectively show elements in top bar [shows all elements by default]
+		 */
+		topBarOptions?: ("undoRedo" | "changePreview" | "previewSize" | "previewTestMail" | "save" | "saveAndClose")[];
+		/**
+		 * Completely remove the top bar from the editor
+		 */
+		removeTopBar?: boolean;
 	}
-
-	type Block = {
-		/**
-		 * Name to display for block
-		 */
-		name: string;
-		/**
-		 * MJML object(s) for block
-		 */
-		definition: MJML[];
-	} | {
-		/**
-		 * URL of image to display for block
-		 */
-		img: ImageUrl;
-		/**
-		 * Name to for block (won't be shown if image is set)
-		 */
-		name?: string;
-		/**
-		 * MJML for block
-		 */
-		definition: MJML[];
-	};
-
-	type PremadeBlocks = {
-		headers?: Block[];
-		content?: Block[];
-		ecomm?: Block[];
-		footers?: Block[];
-	};
-
-	type SavedBlock = Block & {
-		/**
-		 * Unique ID for saved block
-		 */
-		id: number;
-	};
 
 	interface Plugin {
 		/**
@@ -148,20 +191,31 @@ declare namespace Topol {
 		 */
 		togglePreview(): void;
 		/**
-		 * After onOpenFileManager is called, it is waiting for this function to be called with the url of the chosen file
+		 * Send URL of chosen file in response to onOpenFileManager callback. Use when implementing you own file manager
 		 */
 		chooseFile(imageUrl: ImageUrl): void;
 		/**
-		 * Sets the premade blocks
-		 *
-		 * Set to `false` to hide this option
-		 * @param blocks
+		 * Sets the premade blocks, or set to false to hide this option
 		 */
-		setPremadeBlocks(blocks: PremadeBlocks | false);
+		setPremadeBlocks(blocks: PremadeBlocks | false): void;
 		/**
-		 * Sets the saved blocks - this should be called with updated list of saved blocks after all actions: onBlockSave, onBlockRemove, onBlockEdit to update the editor with the updated information
+		 * Sets the user-saved blocks - this should be called with the updated list of saved blocks after all actions: onBlockSave, onBlockRemove, onBlockEdit to update the editor with the updated information
 		 */
-		setSavedBlocks(blocks: SavedBlock[]): void;
+		setSavedBlocks(blocks: SavedBlocks): void;
+		/**
+		 * Undo last user action
+		 */
+		undo(): void;
+		/**
+		 * Redo undone user action
+		 */
+		redo(): void;
+		createNotification(options: {
+			/** Works only in editor v3 */
+			title: string;
+			text: string;
+			type: "info" | "error" | "success";
+		}): void
 	}
 }
 

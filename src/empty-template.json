@@ -1,0 +1,67 @@
+{
+    "tagName": "mj-global-style",
+    "attributes": {
+        "h1:color": "#000",
+        "h1:font-family": "Helvetica, sans-serif",
+        "h2:color": "#000",
+        "h2:font-family": "Ubuntu, Helvetica, Arial, sans-serif",
+        "h3:color": "#000",
+        "h3:font-family": "Ubuntu, Helvetica, Arial, sans-serif",
+        ":color": "#000",
+        ":font-family": "Ubuntu, Helvetica, Arial, sans-serif",
+        ":line-height": "1.5",
+        "a:color": "#24bfbc",
+        "button:background-color": "#e85034",
+        "containerWidth": 600,
+        "fonts": "Helvetica,sans-serif,Ubuntu,Arial",
+        "mj-text": {
+            "line-height": 1.5,
+            "font-size": 15
+        },
+        "mj-button": []
+    },
+    "children": [
+        {
+            "tagName": "mj-container",
+            "attributes": {
+                "background-color": "#FFFFFF",
+                "containerWidth": 600
+            },
+            "children": [
+                {
+                    "tagName": "mj-section",
+                    "attributes": {
+                        "full-width": false,
+                        "padding": "9px 0px 9px 0px"
+                    },
+                    "children": [
+                        {
+                            "tagName": "mj-column",
+                            "attributes": {
+                                "width": "100%"
+                            },
+                            "children": [],
+                            "uid": "HJQ8ytZzW"
+                        }
+                    ],
+                    "layout": 1,
+                    "backgroundColor": null,
+                    "backgroundImage": null,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "uid": "Byggju-zb"
+                }
+            ]
+        }
+    ],
+    "style": {
+        "h1": {
+            "font-family": "\"Cabin\", sans-serif"
+        }
+    },
+    "fonts": [
+        "\"Cabin\", sans-serif"
+    ]
+}
